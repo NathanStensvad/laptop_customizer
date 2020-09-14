@@ -21,6 +21,7 @@ class CustomizeItems extends Component {
                     feature = {feature}
                     selected = {this.props.selected}
                     handleUpdate = {this.props.handleUpdate}
+                    key = {itemHash}
                     />
                   );
                 });
